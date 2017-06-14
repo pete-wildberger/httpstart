@@ -10,7 +10,7 @@
   </head>
   <body ng-app="myApp" ng-cloak>
     <h1>$httpIntro</h1>
-    <div ng-controller='HttpIntro as hi' class="container">
+    <div ng-controller='HttpIntro as hi' ng-init="hi.startUpFunction();" class="container">
       <div class="row">
       </div>
     </div>
